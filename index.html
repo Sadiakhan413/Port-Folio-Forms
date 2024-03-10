@@ -3,25 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHORT INTRODUCTION</title>
+    <title>HUMAN TEST</title>
 </head>
-<body>
-    <h1 style="background-color: aqua;" ><u><b>SHORT INTRODUCTION</b></u></h1>
-    <form>
-    <br>
-    <label for="Name">Name</label>
-    <br>
-    <input type="text"  value="SADIA KHAN" style="background-color: burlywood;">
-    <br>
-    <label for="University">University</label>
-    <br>
-    <input type="text"style="background-color: burlywood;" value= "UNIVERSITY OF ENGINEERING AND TECHNOLOGY PESHAWAR" >
-    <br>
-    <label for= "EmailId" > Email Id</label>
-    <br>
-    <input type="text"style="background-color: burlywood;" value="sadiakhan@gmail.com">
-    <a href="./Project/homePage.html"> <br> <br><br>
-         <input type="button" style="background-color:cadetblue;"value="NEXT PAGE" ></a>
-    </form>
+
+<body  style="max-width:fit-content" >
+
+    <h2 style="text-align: center;"> <legend style="background-color: aquamarine;" >ARE YOU A HUMAN</legend> </h2>
+    <h3 ><br>
+        <fieldset style="text-align: center;" >
+            <!-- style="width: fit-content;" -->
+            <br>
+            <legend style="background-color:crimson"> Personal Information</legend>
+            <!-- <h1 style="background-color: aqua;" ><u><b>ARE YOU A HUMAN</b></u></h1> -->
+            <form>
+            <br>
+            <label for="Name"><b>Name</b></label>
+            <br>
+            <input required="required" style="background-color: burlywood;">
+            <br>
+            <label for="University"> <b>University</b></label>
+            <br>
+            <input  type="text" required="required"  style="background-color: burlywood;" >
+            <br>
+            <label for= "EmailId" > <b>Email Id</b></label>
+            <br>
+            <input   type="email" required="required" style="background-color: burlywood;">
+            <!-- <Label>Gender</Label> <br>
+            <select style="background-color: burlywood;" name="Gender"  required="required">
+                <option value="AGE">Select One</option>
+                <option value="MAlE">Male</option>
+                <option value="FEMALE">Female</option>
+            </select> -->
+            <br><br>
+           
+        </fieldset> 
+        <br><br>
+        <fieldset  style="text-align: center;" >
+            <legend  style="background-color: crimson;"> Basic Informatio</legend>
+            <Label> <b> Select Your Gender :</b></Label> 
+        <input type="radio" name="gender" value="Male" >Male
+        <input type="radio" name="gender" value="Female" >Female
+        </select>
+        <br>
+        <br><label  for="AGE"><b>Age : </b></label>
+        <select style="background-color: burlywood;" required="required" name="CURRENT STATUS" ><br>
+            <option value="AGE">Select One</option>
+            <option value="15-20 ">15-20 Years</option>
+            <option value="20-25 ">20-25 Years</option>
+            <option value="25-30">25-30 Years</option>    
+        </select>
+       
+        <br> <br>
+        <label for="CURRENT STATUS">  <b> Current Status : </b></label>
+        <select style="background-color: burlywood;" required="required">
+            <br>
+            <option value="CUrrent Status">Select One</option>
+            <option value="Student">Student</option>
+            <option value="Intern">Intern</option>
+            <option value="Employee">Employee</option>
+        </select>
+        <br>
+     </fieldset>
+
+        <br> <br>
+        <fieldset  style="text-align: center;" >
+            <legend style="background-color:crimson""> General Informatio</legend>
+            <br>
+            <label for="date"> <b>Date:</b></label>
+        <input style="background-color: burlywood;" type="date" required="required"> <br> <br>
+        <Label> <b> Select Any Three Livig things : </b></Label> <br> <br>
+        <input  style="background-color: burlywood;" type="checkbox" name="Animals">Animals 
+        <input  style="background-color: burlywood;" type="checkbox" name="Animals">Earth
+        <input  style="background-color: burlywood;" type="checkbox" name="Animals">Fishes
+        <input  style="background-color: burlywood;" type="checkbox" name="Animals">Sky
+        <input  style="background-color: burlywood;" type="checkbox" name="Animals">Birds
+        <input  style="background-color: burlywood;" type="checkbox" name="Animals">Stones
+        <input  style="background-color: burlywood;" type="checkbox" name="Animals">Plants
+        <br> <br><br> <h3><a href="./Project/My_data.html"><input  style="background-color:cadetblue;" type="button" value="SUBMIT" ></a></h3>
+
+        <!-- <a href="./Project/My_data.html"><input type="submit" style="background-color:cadetblue;" value="SUBMIT"></a> -->
+        </fieldset>
+    </form>  
+    </h3>
+
 </body>
 </html>
